@@ -2,6 +2,7 @@
 
 A menu-driven Python console application that allows users to:
 
+
 ⭐ Generate star patterns
 
 🔢 Analyze numbers within a range
@@ -10,7 +11,9 @@ A menu-driven Python console application that allows users to:
 
 ❌ Exit safely
 
-This project demonstrates fundamental Python concepts including loops, conditionals, and the modern match-case statement (Python 3.10+).
+
+This project demonstrates fundamental Python concepts including loops, conditionals, and the modern match-case statement.
+
 
 📌 Project Overview
 
@@ -38,33 +41,6 @@ Validates range condition (start should not be greater than end)
 
 
 
-flowchart TD
-
-A([Start Program]) --> B[Display Welcome Message]
-B --> C[Show Menu Options]
-
-C --> D{User Choice}
-
-D -->|1| E[Input Number of Rows]
-E --> F[Generate Star Pattern using Nested Loops]
-F --> C
-
-D -->|2| G[Input Start and End Range]
-G --> H{Is Start > End?}
-
-H -->|Yes| I[Display Error Message]
-I --> C
-
-H -->|No| J[Check Each Number]
-J --> K[Print Even or Odd]
-K --> L[Calculate Sum]
-L --> C
-
-D -->|3| M([Exit Program])
-
-D -->|Invalid| N[Display Invalid Input]
-N --> C
-
 🧠 Concepts Used
 
 while loop (menu-driven program)
@@ -85,17 +61,21 @@ Basic input validation
 
 Python 3.10+
 
-VS Code (recommended)
+
+VS Code 
 
 📂 Project Structure
 pattern-generator-number-analyzer/
 │
+
 ├── main.py
+
 └── README.md
 
 
 👩‍💻 Author
 
-RENU
+RENSEE
 Aspiring Python Developer
+
 Focused on building strong programming fundamentals.
