@@ -24,12 +24,7 @@ User defines number of rows
 
 Uses nested loops for pattern logic
 
-Example Output:
 
-*
-* *
-* * *
-* * * *
 
 2️⃣ Number Analyzer
 
@@ -41,14 +36,9 @@ Calculates total sum of numbers
 
 Validates range condition (start should not be greater than end)
 
-Example Output:
 
-Number 1 is Odd
-Number 2 is Even
-Number 3 is Odd
-Sum of all numbers from 1 to 3 is: 6
 
-lowchart TD
+flowchart TD
 
 A([Start Program]) --> B[Display Welcome Message]
 B --> C[Show Menu Options]
