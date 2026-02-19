@@ -1,5 +1,7 @@
 🚀 Pattern Generator & Number Analyzer
 
+
+
 A menu-driven Python console application that allows users to:
 
 
@@ -15,9 +17,11 @@ A menu-driven Python console application that allows users to:
 This project demonstrates fundamental Python concepts including loops, conditionals, and the modern match-case statement.
 
 
+
 📌 Project Overview
 
 This application provides two main functionalities:
+
 
 1️⃣ Pattern Generator
 
@@ -26,6 +30,7 @@ Generates a right-angled triangle star pattern
 User defines number of rows
 
 Uses nested loops for pattern logic
+
 
 
 
@@ -38,6 +43,7 @@ Identifies numbers as Even or Odd
 Calculates total sum of numbers
 
 Validates range condition (start should not be greater than end)
+
 
 
 
@@ -62,15 +68,20 @@ Basic input validation
 Python 3.10+
 
 
+
+
 VS Code 
 
 📂 Project Structure
 pattern-generator-number-analyzer/
+
 │
 
 ├── main.py
 
 └── README.md
+
+
 
 
 👩‍💻 Author
